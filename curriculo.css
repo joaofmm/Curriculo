@@ -1,0 +1,86 @@
+*{
+    background-color: black;
+    color: white;
+}
+body{
+    outline:1px solid white;
+}
+
+.corpo{
+    margin: 0;
+    height: 100%;   
+}
+
+.cabecalho{
+    margin: 0;  
+    height: 33.3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes img{
+width: 140px;
+margin: 12px;
+}
+
+.contato 
+{
+    display: flex;
+    justify-content: center;
+    border-bottom:2px solid white ;
+}
+.contato img {
+    width: 30px;
+    margin-right: 12px;
+
+}
+
+.separar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+    margin: 12px;
+}
+
+.conteudo{
+height: 66.6%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+margin: 0.25em;
+margin-bottom: 1em;
+}
+
+
+.objetivo{
+height: 100%;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.formacao{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.meusprojetos{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
